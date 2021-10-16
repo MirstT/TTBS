@@ -19,3 +19,69 @@
     U+FEFF, U+FFFD;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after{
+    content: "";
+    position: absolute;
+}
+
+html{
+    font-family: "Sanchez",serif;
+}
+
+.container-wrapper{
+    width: 100%;
+    height: 100%;   
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+html{
+    background-color: #fff7f4;
+    -webkit-transition: background-color 3s ease;
+    -o-transition:  background-color 3s ease;
+    transition: background-color 3s ease;
+    -webkit-transition-delay: 2s ease;
+    -o-transition-delay: 2s ease;
+    transition-delay: 2s ease;
+}
+
+.container{
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+
+.container-night{
+    background-color: #e4ecff;
+}
+
+.circle-container{
+    width: 450px;
+    height: 450px;
+    -webkit-clip-path:circle(50% at 50% 50%);
+    clip-path:circle(50% at 50% 50%);
+    position: absolute;
+    overflow: hidden;
+    z-index: 100%;
+}
+
+
