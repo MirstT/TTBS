@@ -288,3 +288,46 @@ html {
         transform: rotate(1deg) translate(2px,0px);
     }
 }
+
+.boat:before,
+.boat:after{
+    width: 0;
+    height: 0;
+    border:0 solid transparent;
+}
+
+.boat:before{
+    bottom: 8px;
+    right: -6px;
+    border-right-width: 15px;
+    border-left-width: 0px;
+    border-bottom: 30px solid #bb7074;
+}
+
+.boat:after{
+    bottom: 8px;
+    right: 11px;
+    border-left-width: 20px;
+    border-bottom: 48px solid #bb7074;
+}
+
+.ocean{
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    bottom: 0;
+    background: #ceefe8;
+    z-index: 200;
+    -webkit-animation:ocean-top 3s infinite;
+    animation: ocean-top 3s infinite;
+    opacity: 1;
+    -webkit-transition: all 3s ease;
+    transition:ocean-top 3s ease;
+    -webkit-transition-delay: 2s;
+    -o-transition-delay: 2s;
+    transition-delay: 2s;
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+}
+
