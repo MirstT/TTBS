@@ -725,3 +725,80 @@ html {
 .mountain-top *{
     background: #fffcdd;
 }
+
+.mountain-top{
+    width: 200px;
+    height: 90px;
+    top:18px;
+    right: 0;
+    margin-right: -50px;
+}
+
+.mountain-top-1{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 15px;
+    right: 0;
+    margin-right: 150px;
+}
+
+.mountain-top-night{
+    background: #614da2;
+}
+
+.mountain-middle,
+.mountain-middle *{
+    background: #fee1cb;
+}
+
+.mountain-middle{
+    width: 180px;
+    height: 120px;
+    top: 12px;
+    margin-left: 180px;
+}
+
+.mountain-middle-1{
+    width: 200px;
+    height: 120px;
+    top: 3px;
+    margin-left: -110px;
+}
+
+.mountain-middle-2{
+    width: 220px;
+    height: 150px;
+    margin-left: -250px;
+}
+
+.mountain-middle-night{
+    background: #6154a4;
+}
+.mountain-back,
+.mountain-back *{
+    background: #fec696;
+}
+
+.mountain-back{
+    width: 180px;
+    height: 120px;
+    top: 0px;
+}
+
+.mountain-back-1{
+    width: 200px;
+    height: 100px;
+    top: 3px;
+    margin-left: 80px;
+}
+
+.mountain-back-1{
+    width: 150px;
+    height: 80px;
+    margin-left: -250px;
+}
+
+.mountain-back-night{
+    background: #7980c8;
+}
