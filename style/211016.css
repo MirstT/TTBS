@@ -802,3 +802,19 @@ html {
 .mountain-back-night{
     background: #7980c8;
 }
+
+.cloud,
+.cloud:after,
+.cloud:before{
+    background: #fff;
+    position: absolute;
+    z-index: 500;
+}
+
+.cloud{
+    width: 65px;
+    height: 12px;
+    border-radius: 20px;
+    -webkit-animation:cloud 4s infinite;
+    animation:cloud 4s infinite;
+}
