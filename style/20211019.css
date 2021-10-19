@@ -28,8 +28,30 @@ body{
     font-family: "Montserrat",sans-serif,Arial, Helvetica, "Microsoft Yahei";
 }
 
+.bscontainer{
+    font-size: large;
+    color: #fff;
+    opacity: .9;
+    padding-top: 10vh;
+    text-align: center;
+    line-height: 2em;
+    z-index: 100;
+}
+.bscontainer h2{
+    padding: 2vh;
+    border-bottom: #fff 1px dotted;
+}
+
+.bscontainer p{
+    padding-top: 1vh;
+    border-bottom: 1px #fff ;
+}
+
+
 .container{
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
     /* 防止出现滚动条 */
